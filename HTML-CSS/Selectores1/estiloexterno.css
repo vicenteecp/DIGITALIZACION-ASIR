@@ -1,6 +1,9 @@
 *{
-    margin: 25;
-    padding: 25;
+    margin-top: 25PX;
+    margin-right: 25PX;
+    margin-left: 25PX;
+    margin-bottom: 25PX;
+    padding: 25px;
 }
 body{
     background-size: cover;
