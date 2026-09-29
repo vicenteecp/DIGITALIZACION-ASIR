@@ -1,0 +1,116 @@
+/* ========== BASE DE LA PÁGINA ========== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;   /* gris azulado muy suave de fondo */
+    color: #2d3a45;              /* texto gris oscuro, fácil de leer */
+    margin: 0;
+    padding: 40px 15px;
+}
+
+/* Caja blanca central que contiene todo */
+.contenedor {
+    background-color: white;
+    max-width: 720px;            /* ancho máximo; en móvil se estrecha solo */
+    margin: 0 auto;              /* centrado, como el hr del ejercicio 3 */
+    padding: 40px;
+    border-top: 8px solid #1f5f7a;
+}
+
+/* ========== TÍTULOS ========== */
+
+h1 {
+    font-family: Georgia, serif;
+    color: #1f5f7a;              /* azul petróleo */
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: #5c6b77;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Línea corta amarilla bajo el título (amarillo de la bandera de Ecuador) */
+hr {
+    border: none;
+    height: 4px;
+    background-color: #f2b705;
+    width: 120px;
+    margin: 0 auto 30px auto;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: #1f5f7a;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #dde4ea;
+}
+
+/* ========== PÁRRAFOS ========== */
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* ========== TRAYECTORIA ========== */
+
+/* Cada etapa es una caja con una barra de color a la izquierda */
+.etapa {
+    background-color: #f4f8fa;
+    border-left: 5px solid #1f5f7a;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+/* El título de cada etapa (display: block para que funcione el margen) */
+.etapa-titulo {
+    display: block;
+    font-weight: bold;
+    color: #1f5f7a;
+    margin-bottom: 5px;
+}
+
+/* La etapa actual cambia la barra a amarillo */
+.etapa-actual {
+    border-left-color: #f2b705;
+}
+
+/* ========== ENLACES ========== */
+
+.lista-enlaces {
+    line-height: 2;
+}
+
+.enlace {
+    color: #1f5f7a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    color: #c79400;
+    text-decoration: underline;
+}
+
+/* ========== PIE ========== */
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #8a96a0;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
