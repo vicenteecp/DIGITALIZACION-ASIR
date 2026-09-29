@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio 3: Página de Receta</title>
+    <style>
+        /* body: fuente Arial, fondo blanco, sin margen exterior, 40px de padding */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 40px;
+        }
+
+        /* h1: naranja oscuro, 32px, centrado, margen inferior 5px */
+        h1 {
+            color: #d35400;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        /* h2: naranja claro, 20px, cursiva, centrado, sin margen arriba, 30px abajo */
+        h2 {
+            color: #e67e22;
+            font-size: 20px;
+            font-style: italic;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        /* hr: sin borde, 3px de alto, fondo naranja oscuro, 600px, centrado */
+        hr {
+            border: none;
+            height: 3px;
+            background-color: #d35400;
+            width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        /* p: 16px, line-height 1.6, gris oscuro, 600px, centrado, justificado */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555555;
+            width: 600px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+        }
+
+        /* .ingredientes: fondo crema, borde naranja 2px, padding 20px, 560px, centrado */
+        .ingredientes {
+            background-color: #fef5e7;
+            border: 2px solid #d35400;
+            padding: 20px;
+            width: 560px;
+            margin: 0 auto 30px auto;
+            text-align: center;
+        }
+
+        /* .ingredientes-title: negrita, naranja oscuro, margen inferior 10px */
+        .ingredientes-title {
+            display: block;
+            font-weight: bold;
+            color: #d35400;
+            margin-bottom: 10px;
+        }
+
+        /* .nota: cursiva, gris claro, centrado */
+        .nota {
+            font-style: italic;
+            color: #999999;
+            text-align: center;
+        }
+
+        /* .enlace: azul, sin subrayado, negrita */
+        .enlace {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* .enlace:hover: al pasar el ratón, subrayar */
+        .enlace:hover {
+            text-decoration: underline;
+        }
+
+        /* .footer: centrado, 14px, gris muy claro, margen superior 40px */
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #cccccc;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tortilla de Patatas Clásica</h1>
+    <h2>Receta tradicional española</h2>
+
+    <hr>
+
+    <p>
+        La tortilla de patatas es uno de los platos más emblemáticos de la gastronomía española.
+        <b>Sus ingredientes son muy sencillos</b>: patatas, huevos, aceite de oliva y sal.
+        A pesar de su simplicidad, el secreto está en la técnica y en la calidad de los productos.
+    </p>
+
+    <p class="ingredientes">
+        <span class="ingredientes-title">Ingredientes necesarios:</span>
+        - 4 patatas medianas<br>
+        - 6 huevos<br>
+        - Aceite de oliva virgen extra<br>
+        - Sal al gusto
+    </p>
+
+    <p>
+        Para comenzar, pela y corta las patatas en láminas finas. Caliéntalas en una sartén con abundante aceite
+        a fuego medio-bajo durante unos 20 minutos. <i>Este proceso se llama "confitar" las patatas</i>
+        y es fundamental para que queden tiernas.
+    </p>
+
+    <p>
+        Bate los huevos en un bol grande y añade las patatas escurridas. Deja reposar la mezcla unos minutos
+        para que los huevos se impregnen bien. Cuaja la tortilla en la sartén vuelta y vuelta hasta lograr
+        el punto deseado. Puedes ver más trucos en este
+        <a href="#" class="enlace">enlace de cocina</a>.
+    </p>
+
+    <p class="nota">
+        Nota: El debate sobre si debe llevar cebolla o no está abierto. ¡Elige tu versión favorita!
+    </p>
+
+    <p class="footer">
+        S.E.I.M. | 2026
+    </p>
+
+</body>
+</html>

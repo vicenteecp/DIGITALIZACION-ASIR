@@ -1,0 +1,23 @@
+*{
+    margin: 25;
+    padding: 25;
+}
+body{
+    background-size: cover;
+    background: #00adef url('C:\Users\vicenteesparza\Pictures\preview.jpg"');
+    text-align: center;
+}
+h1 {
+    box-shadow: #004b57;
+    color: aliceblue;
+    }
+h3{
+    color: #e0284f;
+    box-shadow: #3d3c3c;
+    }
+p{
+    border: #356635 25px; box-shadow: #222222;
+    border-radius: 40px;
+    padding: 10px;
+    border-bottom-width: thick;
+}
