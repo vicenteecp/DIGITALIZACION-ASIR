@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Destinos turísticos</title>
+
+    <style>
+        /* Escribe aquí tus selectores CSS */
+        li:nth-child(3) {
+            color: greenyellow;
+            background-color: blue;
+            font-weight: bold;
+        }
+        .francia li:nth-child(3) {
+            background-color: blueviolet;
+        }
+        /*para los hijos pares de las listas un 48px en texto*/
+        li:nth-child(even) {
+            background-color: orange;
+            font-size: 24px;
+        }
+        .consejos li:nth-child(odd) {
+            background-color: black;
+            color: white;
+            font-weight: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Destinos turísticos</h1>
+
+<p class="introduccion">
+    Descubre algunos de los lugares más interesantes para visitar.
+</p>
+
+<h2>Destinos recomendados</h2>
+
+<div class="francia">
+    <h3>París, Francia</h3>
+
+    <img src="imagenes/paris.jpg" alt="Torre Eiffel en París">
+
+    <p>
+        París es conocida como la ciudad del amor y destaca por su
+        arquitectura, sus museos y su gastronomía.
+    </p>
+
+    <a href="https://www.france.fr/es" target="_blank">
+        Más información sobre Francia
+    </a>
+
+    <h4>Lugares destacados</h4>
+
+    <ul>
+        <li>Torre Eiffel</li>
+        <li>Museo del Louvre</li>
+        <li>Catedral de Notre Dame</li>
+    </ul>
+</div>
+
+<div class="japon">
+    <h3>Tokio, Japón</h3>
+
+    <img src="imagenes/tokio.jpg" alt="Ciudad de Tokio">
+
+    <p>
+        Tokio combina la tecnología moderna con las tradiciones
+        y la cultura japonesa.
+    </p>
+
+    <a href="https://www.japan.travel/es/es/" target="_blank">
+        Más información sobre Japón
+    </a>
+
+    <h4>Actividades recomendadas</h4>
+
+    <ol>
+        <li>Visitar el monte Fuji</li>
+        <li>Conocer el barrio de Shibuya</li>
+        <li>Probar comida japonesa</li>
+    </ol>
+</div>
+
+<h2>Consejos para viajar</h2>
+
+<p id="aviso">
+    Recuerda consultar el clima y preparar toda la documentación necesaria.
+</p>
+
+<h5>Documentación</h5>
+
+<ul class="consejos">
+    <li>Pasaporte en vigor</li>
+    <li>Seguro de viaje</li>
+    <li>Reservas de alojamiento</li>
+    <li>Revisar que tengas aviso de salida en las tarjetas </li>
+</ul>
+
+<h6>Actividad final</h6>
+
+<p>
+    Añade un tercer destino utilizando la misma estructura.
+</p>
+
+</body>
+</html>
