@@ -15,3 +15,34 @@ label{
     box-shadow: 4px 4px 4px 4px #356635;
     font-size: large;
 }
+
+/* Contenedor de las estrellas */
+.valoracion {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/* Ocultar los radiobotones originales */
+.valoracion input {
+    display: none;
+}
+
+/* Apariencia de las estrellas */
+.valoracion label {
+    font-size: 40px;
+    color: #cccccc;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+/* Colorear las estrellas al pasar el ratón */
+.valoracion label:hover,
+.valoracion label:hover ~ label {
+    color: #82d12d;
+}
+
+/* Mantener coloreadas las estrellas seleccionadas */
+.valoracion input:checked ~ label {
+    color: #ffc107;
+}
