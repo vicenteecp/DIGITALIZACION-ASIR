@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="recepcionDatos.php">
+        <label for="sistemas">Sistemas</label>
+        <select name="sistemas" id="sistemas">
+            <option value="Win">Windows</option>
+            <option value="Mac">Mac</option>
+            <option value="Linux">Linux</option>
+            <option value="Android">Android</option>
+            <option value="otro">Otro</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+
+    /* Ejemplo de listas desplegables */
+    <h1>The datalist element</h1>
+    <form action="/action_page.php" method="get">
+        <label for="browser">Elije tu navegador preferido:</label>
+        <input list="browsers" name="browser" id="browser">  /* el id del datalist se asocia con el imput en atributo list */
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+
+    <form action="action_page.php" method="post">
+        <label for="nombre">Nombre del producto</label> <br/>
+        <input type="text" id="nombre" name="nombre" value="" />
+        <label for="descripcion">Descripción del producto</label> <br/>
+        <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+    </form>
+</body>
+</html>

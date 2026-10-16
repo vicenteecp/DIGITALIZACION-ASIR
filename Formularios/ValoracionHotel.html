@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Valoracion hotel</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<form action="valoracion_hotel.php" method="get">
+    <label><h2>Habitaciones</h2></label><br>
+    <input type="radio" name="habitacion" id="h1" value="1" style="border: #c79400"><label for="h1">1</label>
+    <input type="radio" name="habitacion" id="h2" value="2"><label for="h2">2</label>
+    <input type="radio" name="habitacion" id="h3" value="3"><label for="h3">3</label>
+    <input type="radio" name="habitacion" id="h4" value="4"><label for="h4">4</label>
+    <input type="radio" name="habitacion" id="h5" value="5"><label for="h5">5</label>
+    <br><br>
+    <hr>
+    <label><h2>¿De que tipo de viaje se trataba?</h2></label><br>
+    <input type="radio" name="tipoviaje" id="tv1" value="Negocios"><label for="tv1">Negocios</label>
+    <input type="radio" name="tipoviaje" id="tv2" value="Vacaciones"><label for="tv2">Vacaciones</label>
+    <br><br>
+    <hr>
+    <label><h2>¿Con quien viajabas?</h2></label><br>
+    <input type="radio" name="acompanamiento" id="ac1" value="Familia"><label for="ac1">Familia</label>
+    <input type="radio" name="acompanamiento" id="ac2" value="Amigos"><label for="ac2">Amigos</label>
+    <input type="radio" name="acompanamiento" id="ac3" value="Pareja"><label for="ac3">Pareja</label>
+    <input type="radio" name="acompanamiento" id="ac4" value="Solo/a"><label for="ac4">Solo/a</label>
+    <br><br>
+    <hr>
+    <label><h2>¿Como describirías el Hotel?</h2></label><br>
+    <input type="checkbox" name="describir" id="ds1" value="De lujo"><label for="ds1">De lujo</label>
+    <input type="checkbox" name="describir" id="ds2" value="Buenas vistas"><label for="ds2">Buenas vistas</label>
+    <input type="checkbox" name="describir" id="ds3" value="Romántico"><label for="ds3">Romántico</label>
+    <input type="checkbox" name="describir" id="ds4" value="Tranquilo"><label for="ds4">Tranquilo</label>
+    <input type="checkbox" name="describir" id="ds5" value="Adecuado para niños"><label for="ds5">Adecuado para niños</label>
+    <input type="checkbox" name="describir" id="ds6" value="Buen precio"><label for="ds6">Buen precio</label>
+    <input type="checkbox" name="describir" id="ds7" value="Alta Tecnología"><label for="ds7">Alta Tecnología</label>
+    <br><br>
+    <hr>
+    <label><h2>¿Como de comodda era la cama?</h2></label><br>
+    <input type="radio" name="comodidad" id="cm1" value="Muy comodos"><label for="cm1">Muy comodos</label>
+    <input type="radio" name="comodidad" id="cm2" value="Comodos"><label for="cm2">Comodos</label>
+    <input type="radio" name="comodidad" id="cm3" value="Ni facil ni dificil"><label for="cm3">Ni facil ni dificil</label>
+    <input type="radio" name="comodidad" id="cm4" value="Incomodos"><label for="cm4">Incomodos</label>
+    <input type="radio" name="comodidad" id="cm5" value="Muy incomodos"><label for="cm5">Muy incomodos</label>
+    <br><br>
+    <hr>
+    <h2>Añade mas detalles para ayudar a otros usuarios</h2>
+    <label for="detalleshabitacion"><h3>Habitaciones</h3></label> <br/>
+    <textarea id="detalleshabitacion" name="detalleshabitacion" cols="40" rows="5"></textarea>
+    <br><br>
+    <hr>
+    <input type="submit" style="box-shadow: #00adef" value="Enviar" required>
+    </form>
+</body>
+</html>
