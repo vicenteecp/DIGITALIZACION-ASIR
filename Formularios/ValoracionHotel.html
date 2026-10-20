@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <title>Valoracion hotel</title>
     <link rel="stylesheet" href="estilos.css">
+
 </head>
 <body>
 <form action="valoracion_hotel.php" method="get">
     <p style="font-size: x-large">Habitaciones</p><br><br>
+
     <div class="valoracion">
     <input type="radio" name="habitacion" id="h5" value="5">
     <label for="h5" title="5 estrellas">★</label>
@@ -50,7 +52,7 @@
     <br><br>
     <hr>
     <p style="font-size: x-large">¿Como de comoda era la cama?</p><br><br>
-    <input type="radio" name="comodidad" id="cm1" value="Muy comodos"><label for="cm1">Muy comodos</label>
+    <input type="radio" name="comodidad" id="cm1" value="Muy comodos" checked><label for="cm1">Muy comodos</label>
     <input type="radio" name="comodidad" id="cm2" value="Comodos"><label for="cm2">Comodos</label>
     <input type="radio" name="comodidad" id="cm3" value="Ni facil ni dificil"><label for="cm3">Ni facil ni dificil</label>
     <input type="radio" name="comodidad" id="cm4" value="Incomodos"><label for="cm4">Incomodos</label>
@@ -59,10 +61,15 @@
     <hr>
     <h2>Añade mas detalles para ayudar a otros usuarios</h2>
     <label for="detalleshabitacion" style="font-size: x-large">Habitaciones</label> <br/><br>
-    <textarea id="detalleshabitacion" name="detalleshabitacion" cols="40" rows="5"></textarea>
+    <textarea placeholder="" id="detalleshabitacion" name="detalleshabitacion" cols="100" rows="10"></textarea>
+    <br><br>
+    <hr>
+    <label for="fotovacaion" style="font-size: x-large">Sube una foto de la Habitaciones de tus vacaiones</label>
+    <input type="file" name="fotovacacion" id="fotovacaion">
     <br><br>
     <hr>
     <input type="submit" value="Enviar" style="font-size: x-large">
-    </form>
+
+</form>
 </body>
 </html>

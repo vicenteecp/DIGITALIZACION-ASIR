@@ -31,7 +31,7 @@ label{
 /* Apariencia de las estrellas */
 .valoracion label {
     font-size: 40px;
-    color: #cccccc;
+    color: #201d1d;
     cursor: pointer;
     transition: color 0.2s ease;
 }
